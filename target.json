@@ -1,0 +1,44 @@
+{
+  "login": {
+    "name": "",
+    "password": "",
+    "form_id": "user_login"
+  },
+  "tba_request": {
+    "endpoint": "/transfer/tba",
+    "user_id": 254,
+    "debit_from": 409,
+    "credit_to": 2030,
+    "amount_to_transfer": 1,
+    "form_token": "8hk3p4EtbtWhyhHypXbEsywGyWFq4WArMwlZ4xt5EMo",
+    "form_id": "ebanq_transfer_transfer_between_account_form"
+  },
+  "tbu_request": {
+    "endpoint": "/transfer/tbu",
+    "user_id": 254,
+    "debit_from": 409,
+    "username": "fines@vallettapay.com",
+    "account": "EUR471953992",
+    "amount_to_transfer": 1,
+    "form_token": "dE9EDXhxNUQDH8YM1R7ESlxk-xLRcWA-8d3LUYtzrJY",
+    "form_id": "ebanq_transfer_transfer_between_users_form"
+  },
+  "owt_request": {
+    "endpoint": "/transfer/owt",
+    "user_id": 254,
+    "debit_from": 409,
+    "beneficiary_bank_swift": "PMFAUS66",
+    "beneficiary_bank_name": "1ST PMF BANCORP",
+    "beneficiary_bank_address": "Los Angeles",
+    "beneficiary_bank_location": "California",
+    "beneficiary_bank_country": "US",
+    "beneficiary_customer_name": "LoadTest",
+    "beneficiary_customer_address": "New-York",
+    "beneficiary_customer_iban": "GB29NWBK60161331926819",
+    "information_ref": "31234567",
+    "amount_to_transfer": 1,
+    "currency": 9,
+    "form_token": "RUYFsm3cGxecerPiI3oMFCjKk5K-Q2Vk0V25Am6u1bc",
+    "form_id": "ebanq_transfer_outgoing_wire_transfer_form"
+  }
+}
