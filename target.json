@@ -6,27 +6,27 @@
   },
   "tba_request": {
     "endpoint": "/transfer/tba",
-    "user_id": 254,
-    "debit_from": 409,
-    "credit_to": 2030,
-    "amount_to_transfer": 1,
+    "user_id": "254",
+    "debit_from": "409",
+    "credit_to": "2030",
+    "amount_to_transfer": "1",
     "form_token": "8hk3p4EtbtWhyhHypXbEsywGyWFq4WArMwlZ4xt5EMo",
     "form_id": "ebanq_transfer_transfer_between_account_form"
   },
   "tbu_request": {
     "endpoint": "/transfer/tbu",
-    "user_id": 254,
-    "debit_from": 409,
+    "user_id": "254",
+    "debit_from": "409",
     "username": "fines@vallettapay.com",
     "account": "EUR471953992",
-    "amount_to_transfer": 1,
+    "amount_to_transfer": "1",
     "form_token": "dE9EDXhxNUQDH8YM1R7ESlxk-xLRcWA-8d3LUYtzrJY",
     "form_id": "ebanq_transfer_transfer_between_users_form"
   },
   "owt_request": {
     "endpoint": "/transfer/owt",
-    "user_id": 254,
-    "debit_from": 409,
+    "user_id": "254",
+    "debit_from": "409",
     "beneficiary_bank_swift": "PMFAUS66",
     "beneficiary_bank_name": "1ST PMF BANCORP",
     "beneficiary_bank_address": "Los Angeles",
@@ -36,9 +36,195 @@
     "beneficiary_customer_address": "New-York",
     "beneficiary_customer_iban": "GB29NWBK60161331926819",
     "information_ref": "31234567",
-    "amount_to_transfer": 1,
-    "currency": 9,
+    "amount_to_transfer": "1",
+    "currency": "9",
     "form_token": "RUYFsm3cGxecerPiI3oMFCjKk5K-Q2Vk0V25Am6u1bc",
     "form_id": "ebanq_transfer_outgoing_wire_transfer_form"
+  },
+  "all_requests": {
+    "endpoint": "/request",
+    "op": "Submit",
+    "form_build_id": "form-avsUUg1gbMIA_xXG-XJzhgCTFzKA_XLDA6UjeecahAM",
+    "form_token": "1OSAEMPZ7PbVuQ2kpItLmp0aL-RJ_gQQkzl1dm2Yw_I",
+    "form_id": "ebanq_transfer_transfer_requests_form"
+  },
+  "filtered_requests": {
+    "date_from": "2020-01-01",
+    "date_to": "2020-03-31",
+    "currency": "9",
+    "request_types": "1",
+    "request_status": "2"
+  },
+  "request_by_id": {
+    "id": "66220"
+  },
+  "user_tr_report": {
+    "endpoint": "/management/reports/sur/aat",
+    "user_id": "254",
+    "form_build_id": "form-1j9UNHp_ha7hhqAYpE8aEJmhEtkJj8IS3Odr6lSx_sE",
+    "form_token": "evk3gJQGvgjdMxL5RBpX9cppnJlILeqfzWm-GLrlO44",
+    "form_id": "aat_admin_report"
+  },
+  "user_balance_report": {
+    "endpoint": "/management/reports/sur/aab",
+    "user_id": "254",
+    "form_build_id": "form-T-P5vr4zo2oXlEL_Vw0zQ_um8pjyyWjQPjcXijaVd-Q",
+    "form_token": "EVqwM4AvEqTdIFlpyU_wUbt6QIq38LZ2meGwSubmjt4",
+    "form_id": "aab_admin_report"
+  },
+  "gsr_transactions": {
+    "endpoint": "/management/reports/gsr",
+    "form_build_id": "form-931f6zmorJVmGG4ctCV15igzZgRqQU81-WHAQilyO8M",
+    "form_token": "WZAebNgYa3vYX0ib4DaAetMO3no5n2__yCmsjkQP8DM",
+    "form_id": "gsr_at_report"
+  },
+  "gsr_balances": {
+    "endpoint": "/management/reports/gsr/balances",
+    "form_build_id": "form-0pnstpGNyhs85v5sRFXjnerfc4BAozzDwBz54e8FHXA",
+    "form_token": "OU4F0xexp8N_H4tZ-eqJ2Jtzg1qhsH8bKoBXWM8TNz8",
+    "form_id": "gsr_balances_report"
+  },
+  "gsr_owt_requests": {
+    "endpoint": "/management/reports/gsr/owt",
+    "currency": "10",
+    "form_build_id": "form-a01qaJ2qBl0sZiAlM7Me5Q_Msp_Rc84XfQB_eQEtsKE",
+    "form_token": "G9kzyxz5U6tExX9B7Lushi48sUQbXdaWRo38fbvp3T8",
+    "form_id": "gsr_owt_report"
+  },
+  "gsr_system_overview": {
+    "endpoint": "/management/reports/gsr/overview",
+    "form_build_id": "form-TmUPXIx46AgWrJGoqD6KUN-fUTa3l9aFd4uqQLNppak",
+    "form_token": "K3UPSFVtVjeAj_FRL7mtMahklDHJBjBvc4uc1G0FRlA",
+    "form_id": "gsr_overview_report"
+  },
+  "gsr_interests": {
+    "endpoint": "/management/reports/gsr/interests",
+    "form_build_id": "form-yp-cPkZQmQNR4x4OTGgmEOhudkgA4KH75SH7cIAggv0",
+    "form_token": "zZNmrwhAvTfBt-FxRZ2039_h0nuWqtzT5nLiQBsAnK8",
+    "form_id": "gsr_interests_report"
+  },
+  "gsr_revenue": {
+    "endpoint": "/management/reports/gsr/revenue",
+    "source": "system",
+    "currency": "10",
+    "form_build_id": "form-37CyjLjoZEzNACDHP_HzM4EPaxChVhJ5sSoSN6_-WWw",
+    "form_token": "9xMKfQ6bOhAdio4cOE92uxcsjF7zDB_TKD-m4EO2cjs",
+    "form_id": "gsr_revenue_report"
+  },
+  "gsr_maturity_date": {
+    "endpoint": "/management/reports/gsr/maturity"
+  },
+  "gsr_access_log": {
+    "endpoint": "/management/reports/gsr/access"
+  },
+  "all_transactions_log": {
+    "endpoint": "/system-log/transaction-log",
+    "type_1": "All",
+    "items_per_page": "10"
+  },
+  "filtered_transactions_log": {
+    "type_1": "Manual transaction",
+    "date_from": "2020-01-01",
+    "date_to": "2020-03-31"
+  },
+  "all_information_log": {
+    "endpoint": "/system-log/information-log",
+    "type_1": "All",
+    "items_per_page": "10"
+  },
+  "filtered_information_log": {
+    "type_1": "Create IWT Bank Accounts"
+  },
+  "all_registration_requests": {
+    "endpoint": "/request/registration",
+    "status_value": "All",
+    "items_per_page": "10"
+  },
+  "filtered_registration_requests": {
+    "from_value": "A",
+    "status_value": "0",
+    "date_from": "2020-01-01",
+    "date_to": "2020-03-31"
+  },
+  "registration_request_by_id": {
+    "request_id": "2722"
+  },
+  "create_user_profile": {
+    "endpoint": "/admin/people/create",
+    "profile_type": "0",
+    "first_name": "test",
+    "last_name": "test",
+    "name": "TestLoad",
+    "mail": "test@test.com",
+    "password": "password",
+    "role": "5",
+    "status": "1",
+    "doc_type": "0",
+    "form_build_id": "form-fNDmrr8fISRAd2Y6aG4l81B-BuSdAHKwLcIyIB7usk4",
+    "form_token": "VI6rSUovkJzBrdX2usviyXcDUgeZkTZihGXRHIC2zRs",
+    "form_id": "user_register_form",
+    "notify": "1",
+    "create": "Create new profile"
+  },
+  "account_types": {
+    "endpoint": "/management/settings/accounts/account-type"
+  },
+  "new_account": {
+    "endpoint": "/node/add/account",
+    "field_account_type[und]": "2561",
+    "form_build_id": "form-louTGM9EtbQdb8BEFzNggYblQhTcnFBfEkb2BhFDn7Q",
+    "form_token": "tYf6NhNhQg6s2eLRPZ3NXx9PY-Nw6PKWB_tCOwlcH08",
+    "form_id": "account_node_form",
+    "unique_field_override": "0",
+    "title": "GBP0003776377880010",
+    "field_account_username[und][0][uid]": "fines@vallettapay.com [uid:268]",
+    "field_account_status[und]": "1",
+    "field_account_initial_balance[und][0][value]": "1",
+    "field_account_payment_options[und]": "0",
+    "menu[parent]": "main-menu:0",
+    "menu[weight]": "0",
+    "name": "admin",
+    "status": "1",
+    "additional_settings__active_tab": "edit-menu",
+    "op": "Save"
+  },
+  "messages": {
+    "endpoint": "/messages"
+  },
+  "read_message": {
+    "endpoint": "/messages/view",
+    "id": "55611"
+  },
+  "send_message": {
+    "endpoint": "/messages/new",
+    "recipient_types": "specific",
+    "group": "IWT 1% - OWT 15€ (2)",
+    "recipient": "Fines Account (fines@vallettapay.com),",
+    "subject": "test",
+    "body[value]": "test",
+    "body[format]": "plain_text",
+    "form_build_id": "form-MIcfqXBAx90rjA41p0FMVFyU6I3I-vwMYt7PTF7Bttc",
+    "form_token": "v9Cqm3YrCXmf4HAOD2EjvOsRN_Afd4ZOeNadVQMHRt8",
+    "form_id": "privatemsg_new",
+    "op": "Send"
+  },
+  "reply_to_message": {
+    "endpoint": "/messages/view",
+    "id": "83429",
+    "body[value]": "test",
+    "body[format]": "plain_text",
+    "form_build_id": "form-JVdD1LkJzryp7LEAncmqtRTmstgAUCaWMq5xddTg49Y",
+    "form_token": "v9Cqm3YrCXmf4HAOD2EjvOsRN_Afd4ZOeNadVQMHRt8",
+    "form_id": "privatemsg_new",
+    "op": "Send"
+  },
+  "unblock_user_profile": {
+    "endpoint": "/admin/people",
+    "operation": "unblock",
+    "op": "Update",
+    "accounts[1269]": "1269",
+    "form_build_id": "form-rkKjadobmxGnUWNifUvsOxpGxwG37UXNYMS4vwiNXeE",
+    "form_token": "NMAKBdGIbhJsc3swq2GiDdPgIDojfJFa-FJz2Bz3cnM",
+    "form_id": "user_admin_account"
   }
 }
