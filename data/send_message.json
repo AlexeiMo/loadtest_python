@@ -1,0 +1,12 @@
+{
+  "recipient_types": "specific",
+  "group": "IWT 1% - OWT 15€ (2)",
+  "recipient": "Fines Account (fines@vallettapay.com),",
+  "subject": "test",
+  "body[value]": "test",
+  "body[format]": "plain_text",
+  "form_build_id": "form-MIcfqXBAx90rjA41p0FMVFyU6I3I-vwMYt7PTF7Bttc",
+  "form_token": "v9Cqm3YrCXmf4HAOD2EjvOsRN_Afd4ZOeNadVQMHRt8",
+  "form_id": "privatemsg_new",
+  "op": "Send"
+}

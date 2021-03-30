@@ -1,0 +1,18 @@
+{
+  "field_profile_type[und]": "0",
+  "field_user_first_name[und][0][value]": "test",
+  "field_user_last_name[und][0][value]": "test",
+  "name": "TestLoad",
+  "mail": "test@test.com",
+  "field_user_confirm_email_address[und][0][value]": "test@test.com",
+  "pass[pass1]": "password",
+  "pass[pass2]": "password",
+  "roles[5]": "5",
+  "field_user_document_type[und]": "1",
+  "doc_type": "0",
+  "form_build_id": "form-fNDmrr8fISRAd2Y6aG4l81B-BuSdAHKwLcIyIB7usk4",
+  "form_token": "VI6rSUovkJzBrdX2usviyXcDUgeZkTZihGXRHIC2zRs",
+  "form_id": "user_register_form",
+  "notify": "1",
+  "create": "Create new profile"
+}

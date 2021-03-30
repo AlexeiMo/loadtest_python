@@ -1,0 +1,9 @@
+{
+  "user_id": "254",
+  "debit_from": "2030",
+  "credit_to": "409",
+  "amount_to_transfer": "1",
+  "next": "Continue",
+  "form_token": "8hk3p4EtbtWhyhHypXbEsywGyWFq4WArMwlZ4xt5EMo",
+  "form_id": "ebanq_transfer_transfer_between_account_form"
+}
