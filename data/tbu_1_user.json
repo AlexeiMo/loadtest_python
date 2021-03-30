@@ -1,0 +1,11 @@
+{
+  "debit_from": "2945",
+  "username": "fines@vallettapay.com",
+  "account": "EUR471953992",
+  "amount_to_transfer": "1",
+  "tan": "3700399131",
+  "next": "Continue",
+  "form_build_id": "form-enztA-NMEVSG3fCNbhVrGYkjpiEuHJweKzvnY6wb4Ls",
+  "form_token": "lf_zziBWeIAj_YAmc3d-qKLvby_oYfZqF3s7GtiDmn0",
+  "form_id": "ebanq_transfer_transfer_between_users_form"
+}

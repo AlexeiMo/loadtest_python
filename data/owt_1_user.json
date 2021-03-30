@@ -1,0 +1,19 @@
+{
+  "debit_from": "2945",
+  "beneficiary_bank_swift": "PMFAUS66",
+  "beneficiary_bank_name": "1ST PMF BANCORP",
+  "beneficiary_bank_address": "Los Angeles",
+  "beneficiary_bank_location": "California",
+  "beneficiary_bank_country": "US",
+  "beneficiary_customer_name": "LoadTest",
+  "beneficiary_customer_address": "New-York",
+  "beneficiary_customer_iban": "GB29NWBK60161331926819",
+  "information_ref": "31234567",
+  "amount_to_transfer": "1",
+  "currency": "9",
+  "tan": "3942074981",
+  "next": "Continue",
+  "form_build_id": "form-SwmDjcwqFUbTvJCcILKDJXCGuEykLhIhPv7DP6-MhlE",
+  "form_token": "ACHo_yTd82QX7y3I1LHkdbkfw4MdxI_E7rpz5E92wOs",
+  "form_id": "ebanq_transfer_outgoing_wire_transfer_form"
+}

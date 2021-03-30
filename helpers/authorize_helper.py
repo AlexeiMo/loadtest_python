@@ -23,7 +23,7 @@ class AuthorizationHelper:
             data = {
                 "name": name,
                 "pass": password,
-                "form_id": target["login"]["form_id"]
+                "form_id": target["user"]["login"]["form_id"]
             }
 
             with session.post("/", name="/LOGIN", data=data, catch_response=True, verify=False) as response:

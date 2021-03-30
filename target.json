@@ -1,131 +1,192 @@
 {
-  "login": {
+  "user": {
+    "login": {
+      "name": "",
+      "password": "",
+      "form_id": "user_login"
+      },
+    "navigate_to_account": {
+      "endpoint": "/user-accounts"
+    },
+    "view_account": {
+      "endpoint": "/user-accounts",
+      "filename": "view_account.json"
+    },
+    "view_transaction": {
+      "endpoint": "/user-accounts/transaction/1037221/view",
+      "filename": "view_transaction.json"
+    },
+    "tba_request": {
+      "endpoint": "/transfer/tba",
+      "fill_in_filename": "tba_1_user.json",
+      "finish_filename": "tba_2_user.json"
+    },
+    "tbu_request": {
+      "endpoint": "/transfer/tbu",
+      "fill_in_filename": "tbu_1_user.json",
+      "finish_filename": "tbu_2_user.json"
+    },
+    "owt_request": {
+      "endpoint": "/transfer/owt",
+      "fill_in_filename": "owt_1_user.json",
+      "finish_filename": "owt_2_user.json"
+    },
+    "sas_report": {
+      "endpoint": "/reports",
+      "filename": "sas_report.json"
+    },
+    "all_balances": {
+      "endpoint": "/reports/aab"
+    },
+    "all_transactions": {
+      "endpoint": "/reports/aat"
+    },
+    "navigate_to_messages": {
+      "endpoint": "/messages"
+    },
+    "read_message": {
+      "endpoint": "/messages/view",
+      "id": "83435"
+    },
+    "send_new_message": {
+      "endpoint": "/messages/new",
+      "filename": "user_send_message.json"
+    },
+    "reply_to_message": {
+      "endpoint": "/messages/view",
+      "id": "83436",
+      "filename": "user_reply_to_message.json"
+    }
+  },
+  "admin": {
+    "login": {
     "name": "",
     "password": "",
     "form_id": "user_login"
-  },
-  "tba_request": {
-    "endpoint": "/transfer/tba",
-    "fill_data_filename": "tba_1.json",
-    "finish_filename": "tba_2.json"
-  },
-  "tbu_request": {
-    "endpoint": "/transfer/tbu",
-    "fill_data_filename": "tbu_1.json",
-    "finish_filename": "tbu_2.json"
-  },
-  "owt_request": {
-    "endpoint": "/transfer/owt",
-    "fill_data_filename": "owt_1.json",
-    "finish_filename": "owt_2.json"
-  },
-  "all_requests": {
-    "endpoint": "/request",
-    "filename": "all_requests.json"
-  },
-  "filtered_requests": {
-    "endpoint": "/request",
-    "filename": "request_by_id.json"
-  },
-  "request_by_id": {
-    "endpoint": "/request",
-    "filename": "request_by_id.json"
-  },
-  "user_tr_report": {
-    "endpoint": "/management/reports/sur/aat",
-    "filename": "user_tr_report.json"
-  },
-  "user_balance_report": {
-    "endpoint": "/management/reports/sur/aab",
-    "filename": "user_balance_report.json"
-  },
-  "gsr_transactions": {
-    "endpoint": "/management/reports/gsr",
-    "filename": "gsr_transactions.json"
-  },
-  "gsr_balances": {
-    "endpoint": "/management/reports/gsr/balances",
-    "filename": "gsr_balances.json"
-  },
-  "gsr_owt_requests": {
-    "endpoint": "/management/reports/gsr/owt",
-    "filename": "gsr_owt_requests.json"
-  },
-  "gsr_system_overview": {
-    "endpoint": "/management/reports/gsr/overview",
-    "filename": "gsr_system_overview.json"
-  },
-  "gsr_interests": {
-    "endpoint": "/management/reports/gsr/interests",
-    "filename": "gsr_interests.json"
-  },
-  "gsr_revenue": {
-    "endpoint": "/management/reports/gsr/revenue",
-    "filename": "gsr_revenue.json"
-  },
-  "gsr_maturity_date": {
-    "endpoint": "/management/reports/gsr/maturity"
-  },
-  "gsr_access_log": {
-    "endpoint": "/management/reports/gsr/access"
-  },
-  "all_transactions_log": {
-    "endpoint": "/system-log/transaction-log",
-    "filename": "all_transactions_log.json"
-  },
-  "filtered_transactions_log": {
-    "endpoint": "/system-log/transaction-log",
-    "filename": "filtered_transactions_log.json"
-  },
-  "all_information_log": {
-    "endpoint": "/system-log/information-log",
-    "filename": "all_information_log.json"
-  },
-  "filtered_information_log": {
-    "endpoint": "/system-log/information-log",
-    "filename": "filtered_information_log.json"
-  },
-  "all_registration_requests": {
-    "endpoint": "/request/registration",
-    "filename": "all_registration_requests.json"
-  },
-  "filtered_registration_requests": {
-    "endpoint": "/request/registration",
-    "filename": "filtered_registration_requests.json"
-  },
-  "registration_request_by_id": {
-    "endpoint": "/request/registration",
-    "filename": "registration_request_by_id.json"
-  },
-  "create_user_profile": {
-    "endpoint": "/admin/people/create",
-    "filename": "create_user_profile.json"
-  },
-  "account_types": {
-    "endpoint": "/management/settings/accounts/account-type"
-  },
-  "new_account": {
-    "endpoint": "/node/add/account",
-    "filename": "new_account.json"
-  },
-  "messages": {
-    "endpoint": "/messages"
-  },
-  "read_message": {
-    "endpoint": "/messages/view",
-    "id": "55611"
-  },
-  "send_message": {
-    "endpoint": "/messages/new",
-    "filename": "send_message.json"
-  },
-  "reply_to_message": {
-    "endpoint": "/messages/view",
-    "id": "83429",
-    "filename": "reply_to_message.json"
-  },
-  "unblock_user_profile": {
-    "endpoint": "/admin/people",
-    "filename": "unblock_user_profile.json"
+    },
+    "tba_request": {
+      "endpoint": "/transfer/tba",
+      "fill_data_filename": "tba_1.json",
+      "finish_filename": "tba_2.json"
+    },
+    "tbu_request": {
+      "endpoint": "/transfer/tbu",
+      "fill_data_filename": "tbu_1.json",
+      "finish_filename": "tbu_2.json"
+    },
+    "owt_request": {
+      "endpoint": "/transfer/owt",
+      "fill_data_filename": "owt_1.json",
+      "finish_filename": "owt_2.json"
+    },
+    "all_requests": {
+      "endpoint": "/request",
+      "filename": "all_requests.json"
+    },
+    "filtered_requests": {
+      "endpoint": "/request",
+      "filename": "request_by_id.json"
+    },
+    "request_by_id": {
+      "endpoint": "/request",
+      "filename": "request_by_id.json"
+    },
+    "user_tr_report": {
+      "endpoint": "/management/reports/sur/aat",
+      "filename": "user_tr_report.json"
+    },
+    "user_balance_report": {
+      "endpoint": "/management/reports/sur/aab",
+      "filename": "user_balance_report.json"
+    },
+    "gsr_transactions": {
+      "endpoint": "/management/reports/gsr",
+      "filename": "gsr_transactions.json"
+    },
+    "gsr_balances": {
+      "endpoint": "/management/reports/gsr/balances",
+      "filename": "gsr_balances.json"
+    },
+    "gsr_owt_requests": {
+      "endpoint": "/management/reports/gsr/owt",
+      "filename": "gsr_owt_requests.json"
+    },
+    "gsr_system_overview": {
+      "endpoint": "/management/reports/gsr/overview",
+      "filename": "gsr_system_overview.json"
+    },
+    "gsr_interests": {
+      "endpoint": "/management/reports/gsr/interests",
+      "filename": "gsr_interests.json"
+    },
+    "gsr_revenue": {
+      "endpoint": "/management/reports/gsr/revenue",
+      "filename": "gsr_revenue.json"
+    },
+    "gsr_maturity_date": {
+      "endpoint": "/management/reports/gsr/maturity"
+    },
+    "gsr_access_log": {
+      "endpoint": "/management/reports/gsr/access"
+    },
+    "all_transactions_log": {
+      "endpoint": "/system-log/transaction-log",
+      "filename": "all_transactions_log.json"
+    },
+    "filtered_transactions_log": {
+      "endpoint": "/system-log/transaction-log",
+      "filename": "filtered_transactions_log.json"
+    },
+    "all_information_log": {
+      "endpoint": "/system-log/information-log",
+      "filename": "all_information_log.json"
+    },
+    "filtered_information_log": {
+      "endpoint": "/system-log/information-log",
+      "filename": "filtered_information_log.json"
+    },
+    "all_registration_requests": {
+      "endpoint": "/request/registration",
+      "filename": "all_registration_requests.json"
+    },
+    "filtered_registration_requests": {
+      "endpoint": "/request/registration",
+      "filename": "filtered_registration_requests.json"
+    },
+    "registration_request_by_id": {
+      "endpoint": "/request/registration",
+      "filename": "registration_request_by_id.json"
+    },
+    "create_user_profile": {
+      "endpoint": "/admin/people/create",
+      "filename": "create_user_profile.json"
+    },
+    "account_types": {
+      "endpoint": "/management/settings/accounts/account-type"
+    },
+    "new_account": {
+      "endpoint": "/node/add/account",
+      "filename": "new_account.json"
+    },
+    "messages": {
+      "endpoint": "/messages"
+    },
+    "read_message": {
+      "endpoint": "/messages/view",
+      "id": "55611"
+    },
+    "send_message": {
+      "endpoint": "/messages/new",
+      "filename": "send_message.json"
+    },
+    "reply_to_message": {
+      "endpoint": "/messages/view",
+      "id": "83429",
+      "filename": "reply_to_message.json"
+    },
+    "unblock_user_profile": {
+      "endpoint": "/admin/people",
+      "filename": "unblock_user_profile.json"
+    }
   }
 }
