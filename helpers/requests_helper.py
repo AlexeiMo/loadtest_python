@@ -14,7 +14,6 @@ class RequestsHelper:
         with self.session.post(url, name=request_name, data=data, verify=False,
                                catch_response=True) as response:
             assert_status_code(response)
-            print(response.text)
 
     def send_get_request(self, url, request_name, filename=None):
         if filename:
@@ -25,4 +24,3 @@ class RequestsHelper:
         with self.session.get(url, name=request_name, params=params, verify=False,
                               catch_response=True) as response:
             assert_status_code(response)
-            print(response.text)
