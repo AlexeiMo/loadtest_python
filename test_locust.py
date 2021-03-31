@@ -11,6 +11,8 @@ urllib3.disable_warnings()
 filepath = os.path.abspath("target.json")
 target = read_json(filepath)
 
+auth_helper = AuthorizationHelper()
+
 
 class UserBehavior(TaskSet):
 
@@ -18,7 +20,7 @@ class UserBehavior(TaskSet):
     class UserModule(TaskSet):
 
         def on_start(self):
-            AuthorizationHelper().log_in(
+            auth_helper.log_in(
                 session=self.client,
                 name=target["user"]["login"]["name"],
                 password=target["user"]["login"]["password"],
@@ -49,7 +51,7 @@ class UserBehavior(TaskSet):
                 filename = target["user"]["view_transaction"]["filename"]
                 self.requests_helper.send_get_request(url, "/TRANSACTION", filename)
 
-            @task(2)
+            # @task(2)
             def stop(self):
                 self.interrupt()
 
@@ -162,7 +164,7 @@ class UserBehavior(TaskSet):
     class AdminModule(TaskSet):
 
         def on_start(self):
-            AuthorizationHelper().log_in(
+            auth_helper.log_in(
                 session=self.client,
                 name=target["admin"]["login"]["name"],
                 password=target["admin"]["login"]["password"],
@@ -224,7 +226,7 @@ class UserBehavior(TaskSet):
                 filename = target["admin"]["cancel_request"]["filename"]
                 self.requests_helper.send_post_request(url, "/CANCEL TRANSFER REQUEST", filename)
 
-            @task(2)
+            # @task(2)
             def stop(self):
                 self.interrupt()
 
