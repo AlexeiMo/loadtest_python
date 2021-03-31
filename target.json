@@ -79,6 +79,22 @@
       "fill_data_filename": "owt_1.json",
       "finish_filename": "owt_2.json"
     },
+    "debit": {
+      "endpoint": "/management/accounts/operation/2945/debit",
+      "filename": "debit.json"
+    },
+    "credit": {
+      "endpoint": "/management/accounts/operation/2945/credit",
+      "filename": "credit.json"
+    },
+    "approve_request": {
+      "endpoint": "/request/transfer/66221/view",
+      "filename": "approve_request.json"
+    },
+    "cancel_request": {
+      "endpoint": "/request/transfer/66222/view",
+      "filename": "cancel_request.json"
+    },
     "all_requests": {
       "endpoint": "/request",
       "filename": "all_requests.json"
@@ -156,6 +172,10 @@
     "registration_request_by_id": {
       "endpoint": "/request/registration",
       "filename": "registration_request_by_id.json"
+    },
+    "approve_reg_request": {
+      "endpoint": "/node/2722",
+      "filename": "approve_reg_request.json"
     },
     "create_user_profile": {
       "endpoint": "/admin/people/create",

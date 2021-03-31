@@ -1,0 +1,10 @@
+{
+  "request_id": "66221",
+  "exchange_rate": "1.19870000",
+  "exchange_rate_total": "1.1987",
+  "op": "Execute",
+  "cancellation_reason": "",
+  "form_build_id": "form-EMJRkpcViQIsckTTIxHm0lDyCAGIb3iVV2SPYjyiXDE",
+  "form_token": "z9hivpNnUd4TnTD7PoD5C9_t2YxpqIMMQFgHNSoamHs",
+  "form_id": "ebanq_transfer_view_transfer_request_form"
+}

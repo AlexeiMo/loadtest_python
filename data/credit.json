@@ -1,0 +1,10 @@
+{
+  "operation": "credit",
+  "account_id": "2945",
+  "amount": "1",
+  "description": "test",
+  "form_build_id": "form-W9BORTJov29882XYBYhKF8a6frMchuWyBvjEgQhFYcU",
+  "form_token": "G0vSjIFVhnlfbn0SgrJVQnpF2zme_3ASrxpTVdQDN7w",
+  "form_id": "debit_credit_form",
+  "submit_continue": "Submit and Continue"
+}
